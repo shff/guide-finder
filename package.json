@@ -1,0 +1,19 @@
+{
+  "license": "MIT",
+  "productName": "Tour Finder",
+  "description": "A lean and mean tour finder, so you can see the world!",
+  "scripts": {
+    "build": "poi --prod app/index.js --public-url .",
+    "serve": "poi --serve app/index.js",
+    "now-build": "poi --prod app/index.js"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "tailwindcss": "^1.0.4",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "poi": "^12.6.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
