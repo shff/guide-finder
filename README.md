@@ -18,14 +18,14 @@ Hope you folks like it!
 
 You need Node.js to build it.
 
-The best way to install Node.js is to use a package manager.
+The best way to install Node.js is to use a package manager. I recommend yarn.
 
-Here are some instructions: https://nodejs.org/en/download/package-manager/
+Here are some instructions: https://classic.yarnpkg.com/en/docs/install/#mac-stable
 
-Next, use NPM to install the packages:
+Next, use it to install the packages:
 
 ```
-npm install
+yarn
 ```
 
 ### Building the static site
@@ -33,7 +33,7 @@ npm install
 After that, just run this script to build it in the `dist` directory:
 
 ```
-npm run build
+yarn build
 ```
 
 ### Use the build server to develop it
@@ -41,7 +41,7 @@ npm run build
 Want to run a local server with hot-reloading support? Just run this:
 
 ```
-npm run serve
+yarn serve
 ```
 
 After that your console will display a local address where you can access the app.
