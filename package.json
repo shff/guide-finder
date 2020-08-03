@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "tailwindcss": "^1.6.0",
+    "tailwindcss": "^1.6.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
